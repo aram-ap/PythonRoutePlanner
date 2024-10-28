@@ -1,4 +1,3 @@
-```markdown
 # Route Optimizer
 
 This Python script calculates the best route between multiple destinations, optionally starting from a specified origin or using the user's current location. It leverages the Google Maps Directions API to provide detailed directions and estimated travel times, while avoiding highways to potentially bypass restricted roads.
