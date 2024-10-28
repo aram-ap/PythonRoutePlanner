@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
-def get_current_location()
+def get_current_location():
     """Get the current location of the user using geopy."""
 
     try:
@@ -18,7 +18,7 @@ def get_current_location()
         print(f"An error occured: {e}")
         return None
 
-def get_best_route(api_key, origin, destination):
+def get_best_route(api_key, origin, destinations):
     # Build the destinations string for the API request
     destinations_str = '|'.join(destinations)
 
@@ -72,7 +72,7 @@ def main():
         return
 
     # Attempt to get user's current Location
-    current_location = get)current_location()
+    current_location = get_current_location()
 
     # Define a default location if current location is not available
     default_location = 'Santa Clarita, CA'
