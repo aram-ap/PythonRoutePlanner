@@ -75,7 +75,7 @@ python run.py
 When prompted, enter your destinations as a comma-separated list:
 
 ```
-Enter your destinations separated by commas: 26877 Tourney Rd Santa Clarita CA, 26455 Rockwell Canyon Rd Santa Clarita CA, 26468 Carl Boyer Dr Santa Clarita CA, 22913 Soledad Canyon Rd
+Enter your destinations separated by commas: 26455 Someplace Rd City CA, 22613 Heebee Jeebee Dr Bollywood CA, 31 Spooner Street Quahog Rhode Island
 ```
 
 ## Output
